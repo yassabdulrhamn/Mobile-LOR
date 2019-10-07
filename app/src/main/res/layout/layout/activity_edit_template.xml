@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="lorteam.mobilelor.EditTemplateActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:padding="10sp"
+            android:id="@+id/imageLogOut"
+            android:src="@drawable/makefg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:text="Mobile LOR"
+            android:textColor="@android:color/white"
+            android:textSize="28dp"
+            android:textStyle="bold" />
+    </android.support.v7.widget.Toolbar>
+
+
+    <ImageView
+        android:id="@+id/imageHome"
+        android:layout_width="?actionBarSize"
+        android:layout_height="?actionBarSize"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="10dp"
+        android:padding="10sp"
+        android:src="@drawable/home_icon" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="?actionBarSize"
+        android:fitsSystemWindows="true"
+        android:padding="40dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/toolbarHeader"
+        android:weightSum="1"
+        android:layout_gravity="center"
+        android:background="@mipmap/background"
+        >
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_edit_intro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/colorPrimary"
+            android:padding="16dp"
+            android:text="Introduction Statements"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:textStyle="bold"
+
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_edit_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="Body Statements"
+
+            />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_edit_con"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="Conclusion Statements"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btn_edit_rej"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:text="Reject Statements"
+            />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    </android.widget.RelativeLayout>

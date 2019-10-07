@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MobileLOR</string>
+
+    <string name="ActionBar">Action Bar</string>
+    <integer-array name="days_of_week_ID">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+    </integer-array>
+
+    <string-array name="ArrayOuestions">
+        <item>How To Create Account ?</item>
+        <item>How To Reset Password ?</item>
+        <item>HoW To Edit Your Profile ?</item>
+        <item>How To Request Letter of Recommindation ?</item>
+
+    </string-array>
+
+    <string-array name="ArrayAnswers">
+        <item>  You can create Account with your KSU email ,
+                You just need to add a Password and Personal information,
+                before using Application. </item>
+
+        <item>  If you are forgetten your password . click forget passwor in login page ,
+                There you will be able to fill out the forgotten password field with ,
+                your email address and an email will be sent to you! </item>
+
+        <item>  You can Edit Your profile From Account ,
+                By click Edit profile </item>
+
+        <item>  You can Request LOR By click on Request LOR
+                and type email of issure , your comments
+                purpose and upload your CV and Transcript.</item>
+
+
+    </string-array>
+
+    <string name="title_activity_faqs">FAQs</string>
+</resources>
